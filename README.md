@@ -50,3 +50,9 @@ The video pipeline was implement in the the IN[11] of the jupyter notebook.
 
 Based on the heatmap and detecting how many features are prenesnt helped in reducing the false positives. The putput video is
 (https://github.com/mohsinkar/Vehicle-Detection/blob/master/project_video_output.mp4) project_video_output.mp4
+
+
+### Improvements
+
+1. Most difficult was to remove the false detections need to perform better training.
+2. Improve the processing speed per frame can be achieved by reducing the window searches.
