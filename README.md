@@ -23,3 +23,13 @@ For the implementation of the HOG features the following parameters were used:
 #### orient = 8  
 #### pix_per_cell = 8 
 #### cell_per_block = 2 
+
+
+### Implementation of the Classifier
+
+The classifier was trainined in the In [4] - In In [8] in the jupyter notebook.
+
+1. Got the car and noncar images from the data provided
+2. Extracted the features of car and non cars
+3. Splitted the taining data and testing data 80-20
+4. Trained the data using sklearn.svm.SVC and fir funstion.
