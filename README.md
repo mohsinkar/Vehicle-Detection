@@ -33,3 +33,20 @@ The classifier was trainined in the In [4] - In In [8] in the jupyter notebook.
 2. Extracted the features of car and non cars
 3. Splitted the taining data and testing data 80-20
 4. Trained the data using sklearn.svm.SVC and fir funstion.
+
+
+### Sliding Window
+
+The sliding window implementation is performed in the the HelperFunctions.py.
+
+1. draw_bounding_boxes was used to implement slider in differnet sizes
+2. Heat map applied on the selection for the purpose of removing the false positives
+3. Threshold is applied to combine the heatmaps.
+4. Final dexted regions were drawn using the draw__label_boxes.
+
+## VideoPipeline
+
+The video pipeline was implement in the the IN[11] of the jupyter notebook.
+
+Based on the heatmap and detecting how many features are prenesnt helped in reducing the false positives. The putput video is
+(https://github.com/mohsinkar/Vehicle-Detection/blob/master/project_video_output.mp4) project_video_output.mp4
